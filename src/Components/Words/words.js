@@ -193,7 +193,7 @@ class words extends Component {
                       strategy to win each time.
                     </p>
 
-                    <a target="_blank" href={fingers} class="btn btn-primary">
+                    <a target="_blank" href="https://drive.google.com/file/d/1hhiwti2i3WohOn2cb2kq8lqUY00RkON6/view?usp=sharing" class="btn btn-primary">
                       read
                     </a>
                     <p class="card-text">
@@ -214,7 +214,7 @@ class words extends Component {
                       My final paper for an elective I took on the economics of
                       COVID-19.
                     </p>
-                    <a target="_blank" href={detroit} class="btn btn-primary">
+                    <a target="_blank" href="https://drive.google.com/file/d/1t3b-voXs8QQvjW_HKpN6-ia1YWOTY-Dw/view?usp=sharing" class="btn btn-primary">
                       read
                     </a>
                     <p class="card-text">
@@ -235,7 +235,7 @@ class words extends Component {
                       their decision to award Qatar the hosting rights for the
                       World Cup in 2022.
                     </p>
-                    <a target="_blank" href={fifa} class="btn btn-primary">
+                    <a target="_blank" href="https://drive.google.com/file/d/19jZMAXso3YVrTOFe28RAhvKPLDLtKxXW/view?usp=sharing" class="btn btn-primary">
                       read
                     </a>
                     <p class="card-text">

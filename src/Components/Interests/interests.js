@@ -3,18 +3,15 @@ import React, { Component } from "react";
 class interests extends Component {
   render() {
     return (
-      <div className="pt-5">
+      <div className="justify-content-center pt-5">
         <br />
         <br />
         <br />
         <br />
-
-
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 px-5 g-4">
+        <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 px-5 mx-5 g-4">
           <div class="col">
             <div class="card h-100 border-primary">
               <div class="card-header bg-primary text-white">music</div>
-
               <div class="card-body">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">Kanye West</li>
@@ -29,7 +26,6 @@ class interests extends Component {
           <div class="col">
             <div class="card h-100 border-success">
               <div class="card-header bg-success text-white">sports</div>
-
               <div class="card-body">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">Soccer</li>

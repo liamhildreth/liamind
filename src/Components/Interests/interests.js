@@ -10,7 +10,7 @@ class interests extends Component {
         <br />
 
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 px-5 g-4">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 px-5 g-4">
           <div class="col">
             <div class="card h-100 border-primary">
               <div class="card-header bg-primary text-white">music</div>

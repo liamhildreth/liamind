@@ -7,9 +7,7 @@ import icb from "../../icb.jpg";
 import moth from "../../moth.jpg";
 import hdt from "../../hdt.jpg";
 import geb from "../../geb.jpg";
-import detroit from "../../detroitbigthree.pdf";
-import fifa from "../../fifa.pdf";
-import fingers from "../../fingers.pdf";
+import themaster from "../../tmahe.jpg"
 
 class words extends Component {
   render() {
@@ -22,12 +20,12 @@ class words extends Component {
         <br />
 
         <div className="row">
-          <div className="col-6 pe-4 border-right border-md">
+          <div className="col-12 col-md-6 pe-4 border-right border-md">
             <h2>read</h2>
             <h5 className="titles text-center text-lg-start">
               favourite books
             </h5>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+            <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
               <div class="col">
                 <div class="card h-100">
                   <img src={breath} class="card-img-top" alt="..."></img>
@@ -69,7 +67,7 @@ class words extends Component {
             <h5 className="titles text-center text-lg-start">
               favourite essays
             </h5>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-4">
+            <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-4">
               <div class="col">
                 <div class="card h-100">
                   <img src={moth} class="card-img-top" alt="..."></img>
@@ -95,7 +93,7 @@ class words extends Component {
             <h5 className="titles text-center text-lg-start">
               favourite poems
             </h5>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-4">
+            <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-4">
               <div class="col">
                 <div class="card h-100">
                   <div class="card-body">
@@ -117,7 +115,7 @@ class words extends Component {
             <h5 className="titles text-center text-lg-start">
               currently reading
             </h5>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+            <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
               <div class="col">
                 <div class="card h-100">
                   <img src={geb} class="card-img-top" alt="..."></img>
@@ -127,9 +125,18 @@ class words extends Component {
                   </div>
                 </div>
               </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src={themaster} class="card-img-top" alt="..."></img>
+                  <div class="card-body">
+                    <h5 class="card-title">The Master and His Emissary</h5>
+                    <p class="body">By  Iain McGilchrist</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="col-6 ps-4 border-left">
+          <div className="col-12 col-md-6 ps-4 border-left">
             <h2>write</h2>
             <br />
             <div class="row row-cols-1  row-cols-lg-2  g-4">

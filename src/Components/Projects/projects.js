@@ -8,14 +8,14 @@ import {
   Container,
   Row,
   Col,
-  Toast
+  Toast,
 } from "react-bootstrap";
 import capella from "../../capella.png";
 import tbird from "../../tbird.png";
 import logo from "../../lh.png";
 import { v4 as uuidv4 } from "uuid";
 import axios from "axios";
-import ReactTooltip from 'react-tooltip';
+import ReactTooltip from "react-tooltip";
 
 class projects extends Component {
   constructor(props) {
@@ -61,7 +61,6 @@ class projects extends Component {
 
     this.setShow();
     this.resetstate();
-    
   }
 
   resetstate() {
@@ -97,21 +96,27 @@ class projects extends Component {
         <br />
         <Row className="pt-5">
           <Col xs={12} md={3} className="my-auto">
-              <a  href="https://www.feedbackmarket.ca" target="_blank">
-                <Image src={capella} data-tip data-for="capella" width="50px" fluid />
-              </a>
-              <ReactTooltip id="capella" type="dark">
-                  <span>Click me</span>
-                </ReactTooltip>
+            <a href="https://www.feedbackmarket.ca" target="_blank">
+              <Image
+                src={capella}
+                data-tip
+                data-for="capella"
+                width="60px"
+                fluid
+              />
+            </a>
+            <ReactTooltip id="capella" type="dark">
+              <span>Click me</span>
+            </ReactTooltip>
           </Col>
           <Col xs={12} md={6} className="py-4 py-md-0 my-auto">
-            A company I founded with my roommate &nbsp;
             <a href="https://www.alexjnelson.ca" rel="noreferrer">
               Alex Nelson
             </a>
-            &nbsp; that's aiming to disrupt the way brands engage with their
-            consumers, through creating a market in which consumers can monetize
-            their own thoughts.
+            &nbsp; and I are on a mission to return value to the people that
+            create it. Capella is a feedback market where consumers barter their
+            time, opinions, and data in exchange for Vox that can be spent on
+            product/service discounts from the brands in our network.
           </Col>
           <Col xs={12} md={3} className="my-auto">
             <Button
@@ -126,8 +131,8 @@ class projects extends Component {
                 <Modal.Title>{this.state.title} Feedback</Modal.Title>
               </Modal.Header>
               <Modal.Body>
-                If you have an comments, questions, or general feedback for this
-                project let me know in the box below!
+                If you have any comments, questions, or general feedback for
+                this project let me know in the box below!
                 <br />
                 <br />
                 <>
@@ -180,8 +185,8 @@ class projects extends Component {
               <Image src={tbird} data-tip data-for="tbird" width="85px" fluid />
             </a>
             <ReactTooltip id="tbird" type="dark">
-                  <span>Click me</span>
-                </ReactTooltip>
+              <span>Click me</span>
+            </ReactTooltip>
           </Col>
           <Col xs={12} md={6} className="py-4 py-md-0 my-auto">
             Tbird is a tool that allows food manufacturers to digitally input
@@ -201,8 +206,8 @@ class projects extends Component {
               <Image src={logo} width="85px" data-tip data-for="lh" fluid />
             </a>
             <ReactTooltip id="lh" type="dark">
-                  <span>Click me</span>
-                </ReactTooltip>
+              <span>Click me</span>
+            </ReactTooltip>
           </Col>
           <Col xs={12} md={6} className="py-4 py-md-0 my-auto">
             The purpose of this website is to increase my technical literacy and

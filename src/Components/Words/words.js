@@ -8,6 +8,7 @@ import moth from "../../moth.jpg";
 import hdt from "../../hdt.jpg";
 import geb from "../../geb.jpg";
 import themaster from "../../tmahe.jpg"
+import msfm from "../../msfm.jpg"
 
 class words extends Component {
   render() {
@@ -55,10 +56,10 @@ class words extends Component {
               </div>
               <div class="col">
                 <div class="card h-100">
-                  <img src={icb} class="card-img-top" alt="..."></img>
+                  <img src={msfm} class="card-img-top" alt="..."></img>
                   <div class="card-body">
-                    <h5 class="card-title">In Cold Blood</h5>
-                    <p class="body">By Truman Capote</p>
+                    <h5 class="card-title">Man's Search for Meaning</h5>
+                    <p class="body">By Viktor E. Frankl</p>
                   </div>
                 </div>
               </div>
@@ -153,13 +154,36 @@ class words extends Component {
                     </p>
                     <a
                       target="_blank"
-                      href="https://www.feedbackmarket.ca/post/the-game-of-ideas"
+                      href="https://drive.google.com/file/d/1of8YBqqhyGIKykX_T6JSt1OQCpjRaqkZ/view?usp=sharing"
                       class="btn btn-primary"
                     >
                       read
                     </a>
                     <p class="card-text">
                       <small class="text-muted">July 2021</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-header">Capella</div>
+
+                  <div class="card-body">
+                    <h5 class="card-title">A Case for a Decentralized Thought-Sharing Platform</h5>
+                    <p class="body">
+                      A proposal Alex and I wrote exploring the idea of creating an alternative monetization model for a twitter style social network.
+                    </p>
+
+                    <a
+                      target="_blank"
+                      href="https://drive.google.com/file/d/1Eeck3dT3j1pRuk0S7GQvwuRkFlJ5FGp0/view?usp=sharing"
+                      class="btn btn-primary"
+                    >
+                      read
+                    </a>
+                    <p class="card-text">
+                      <small class="text-muted">May 2021</small>
                     </p>
                   </div>
                 </div>
@@ -177,7 +201,7 @@ class words extends Component {
 
                     <a
                       target="_blank"
-                      href="https://www.feedbackmarket.ca/post/capella-in-a-page"
+                      href="https://drive.google.com/file/d/1O5OmdwM1lnHm8D7_XMxgb999FjfcFdH1/view?usp=sharing"
                       class="btn btn-primary"
                     >
                       read

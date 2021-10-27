@@ -60,8 +60,8 @@ class interests extends Component {
               <div class="card-body">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">The Lex Fridman Podcast</li>
-                  <li class="list-group-item">The Portal</li>
                   <li class="list-group-item">The Making Sense Podcast</li>
+                  <li class="list-group-item">The Portal</li>
                   <li class="list-group-item">The Huberman Lab Podcast</li>
                   <li class="list-group-item">The JBP Podcast</li>
                 </ul>

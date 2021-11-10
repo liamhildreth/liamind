@@ -3,7 +3,7 @@ import { Router, Switch, Route, Redirect} from "react-router-dom";
 
 import words from "./Components/Words/words"
 import projects from "./Components/Projects/projects"
-import interests from "./Components/Interests/interests"
+import sounds from "./Components/sounds/sounds"
 import history from './history';
 import home from './Components/Home/home'
 
@@ -18,7 +18,7 @@ export default class Routes extends Component {
                     <Route exact path='/home' component ={home}/>
                     <Route exact path="/projects" component ={projects} />
                     <Route exact path="/words" component={words} />
-                    <Route exact path="/interests" component={interests} />
+                    <Route exact path="/sounds" component={sounds} />
 
                 </Switch>
             </Router>

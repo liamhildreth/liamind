@@ -8,23 +8,20 @@ import {
   Container,
   Row,
   Col,
-  Toast,
 } from "react-bootstrap";
 import capella from "../../capella.png";
 import tbird from "../../tbird.png";
 import logo from "../../lh.png";
+import ibr from "../../ibr.png";
+
 import { v4 as uuidv4 } from "uuid";
 import axios from "axios";
-import ReactTooltip from "react-tooltip";
 
 class projects extends Component {
   constructor(props) {
     super(props);
     this.state = {
       fullscreen: false,
-      showcapella: false,
-      showtbird: false,
-      websiteshow: false,
       fname: "",
       femail: "",
       feedback: "",
@@ -105,9 +102,6 @@ class projects extends Component {
                 fluid
               />
             </a>
-            <ReactTooltip id="capella" type="dark">
-              <span>Click me</span>
-            </ReactTooltip>
           </Col>
           <Col xs={12} md={6} className="py-4 py-md-0 my-auto">
             <a href="https://www.alexjnelson.ca" rel="noreferrer">
@@ -184,9 +178,6 @@ class projects extends Component {
             <a href="https://tbird.cloud" target="_blank">
               <Image src={tbird} data-tip data-for="tbird" width="85px" fluid />
             </a>
-            <ReactTooltip id="tbird" type="dark">
-              <span>Click me</span>
-            </ReactTooltip>
           </Col>
           <Col xs={12} md={6} className="py-4 py-md-0 my-auto">
             Tbird is a tool that allows food manufacturers to digitally input
@@ -205,9 +196,6 @@ class projects extends Component {
             <a href="https://liamind.com" target="_blank">
               <Image src={logo} width="85px" data-tip data-for="lh" fluid />
             </a>
-            <ReactTooltip id="lh" type="dark">
-              <span>Click me</span>
-            </ReactTooltip>
           </Col>
           <Col xs={12} md={6} className="py-4 py-md-0 my-auto">
             The purpose of this website is to increase my technical literacy and
@@ -218,6 +206,32 @@ class projects extends Component {
             <Button
               className="me-2"
               onClick={this.handleShow("Personal Website")}
+            >
+              Feedback
+            </Button>
+          </Col>
+        </Row>
+        <br />
+        <Row>
+          <Col xs={12} md={3} className="my-auto">
+            <a
+              href="https://github.com/liamhildreth/ibrautomation"
+              target="_blank"
+            >
+              <Image src={ibr} width="85px" data-tip data-for="lh" fluid />
+            </a>
+          </Col>
+          <Col xs={12} md={6} className="py-4 py-md-0 my-auto">
+            I built this tool while on the research team for the Ivey Business
+            Review to automate some of the laborious tasks of a researcher. I
+            used Textblob to extract facts from articles for each first draft,
+            and Levenshtein to detect unchanged facts when
+            working with subsequent drafts.
+          </Col>
+          <Col xs={12} md={3} className="my-auto">
+            <Button
+              className="me-2"
+              onClick={this.handleShow("IBR")}
             >
               Feedback
             </Button>

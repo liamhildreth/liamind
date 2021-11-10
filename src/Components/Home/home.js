@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import profile from "../../ottawa.jpg"
+import lsd from "../../lsd.jpg"
 
 class home extends Component{
     render(){
@@ -11,7 +11,7 @@ class home extends Component{
         <br />
         <br />
         <br />
-        <img width = "300" src={profile}></img>
+        <img width = "300" src={lsd}></img>
         <br />
         <br />
 

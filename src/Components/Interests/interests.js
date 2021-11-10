@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Accordion, ListGroup } from "react-bootstrap";
 
 class interests extends Component {
   render() {
@@ -11,20 +12,6 @@ class interests extends Component {
         <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 px-lg-5 mx-5 g-4">
           <div class="col">
             <div class="card h-100 border-white">
-              <div class="card-header bg-info text-white">music</div>
-              <div class="card-body">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Kanye West</li>
-                  <li class="list-group-item">Frank Sinatra</li>
-                  <li class="list-group-item">Billy Joel</li>
-                  <li class="list-group-item">The Beatles</li>
-                  <li class="list-group-item">J. Cole</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 border-white">
               <div class="card-header bg-info text-white">sports/exercise</div>
               <div class="card-body">
                 <ul class="list-group list-group-flush">
@@ -33,7 +20,6 @@ class interests extends Component {
                   <li class="list-group-item">Tennis</li>
                   <li class="list-group-item">Rugby</li>
                   <li class="list-group-item">Hiking</li>
-
                 </ul>
               </div>
             </div>
@@ -49,26 +35,10 @@ class interests extends Component {
                   <li class="list-group-item">Patagonia</li>
                   <li class="list-group-item">Lululemon</li>
                   <li class="list-group-item">Electric Juice Factory</li>
-
                 </ul>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 border-white">
-              <div class="card-header text-white bg-info">podcasts</div>
-              <div class="card-body">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">The Lex Fridman Podcast</li>
-                  <li class="list-group-item">The Making Sense Podcast</li>
-                  <li class="list-group-item">The Portal</li>
-                  <li class="list-group-item">The Huberman Lab Podcast</li>
-                  <li class="list-group-item">The JBP Podcast</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col">
+            <div class="col">
             <div class="card h-100 border-white">
               <div class="card-header bg-info text-white">other</div>
               <div class="card-body">
@@ -81,6 +51,8 @@ class interests extends Component {
                 </ul>
               </div>
             </div>
+          </div>
+
           </div>
         </div>
       </div>

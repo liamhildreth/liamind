@@ -12,9 +12,9 @@ class sounds extends Component {
         <br />
         <br />
         <div className="row">
-          <div className="col-12 col-lg-6 ps-5">
+          <div className="col-12 col-lg-6">
             <h2>listen</h2>
-            <div class="card h-60 border-white ps-5">
+            <div class="card h-60 border-white ">
               <div class="card-header bg-info text-white">music</div>
               <Accordion flush defaultActiveKey="0">
                 <Accordion.Item eventKey="1">
@@ -107,7 +107,7 @@ class sounds extends Component {
             </div>
             <br />
 
-            <div class="card h-60 border-white ps-5">
+            <div class="card h-60 border-white ">
               <div class="card-header bg-info text-white">podcasts</div>
               <Accordion flush defaultActiveKey="0">
                 <Accordion.Item eventKey="1">
@@ -210,7 +210,7 @@ class sounds extends Component {
               </Accordion>
             </div>
           </div>
-          <div className="col-12 col-lg-6 ps-5 border-right border-md">
+          <div className="col-12 col-lg-6 border-right border-md">
           <h2>speech</h2>
           <div class="card h-60 border-white ">
             <div class="col">

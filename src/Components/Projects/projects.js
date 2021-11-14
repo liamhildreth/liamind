@@ -93,7 +93,7 @@ class projects extends Component {
         <br />
         <Row className="pt-5">
           <Col xs={12} md={3} className="my-auto">
-            <a href="https://www.feedbackmarket.ca" target="_blank">
+            <a >
               <Image
                 src={capella}
                 data-tip

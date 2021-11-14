@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import breath from "../../whenbreathbecomesair.jpg";
-import "./words.css" 
+import "./words.css";
 import lecture from "../../lastlecture.jpg";
 import gods from "../../againstthegods.jpg";
 import icb from "../../icb.jpg";
 import moth from "../../moth.jpg";
 import hdt from "../../hdt.jpg";
 import geb from "../../geb.jpg";
-import themaster from "../../tmahe.jpg"
-import msfm from "../../msfm.jpg"
+import themaster from "../../tmahe.jpg";
+import msfm from "../../msfm.jpg";
 
 class words extends Component {
   render() {
@@ -98,7 +98,14 @@ class words extends Component {
               <div class="col">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h5 class="card-title">Salutation to the Dawn</h5>
+                    <h5 class="card-title">
+                    <a
+                        href="https://sanskritdocuments.org/doc_deities_misc/salutedawn.html"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Salutation of the Dawn
+                      </a></h5>
                     <p class="body">By Kalidasa</p>
                   </div>
                 </div>
@@ -106,8 +113,31 @@ class words extends Component {
               <div class="col">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h5 class="card-title">Invictus</h5>
+                    <h5 class="card-title">
+                    <a
+                        href="https://www.poetryfoundation.org/poems/51642/invictus"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Invictus
+                      </a></h5>
                     <p class="body">By William Ernest Henley</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a
+                        href="https://www.poetryfoundation.org/poems/45392/ulysses"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Ulysses
+                      </a>
+                    </h5>
+                    <p class="body">By Alfred Lord Tennyson</p>
                   </div>
                 </div>
               </div>
@@ -131,7 +161,7 @@ class words extends Component {
                   <img src={themaster} class="card-img-top" alt="..."></img>
                   <div class="card-body">
                     <h5 class="card-title">The Master and His Emissary</h5>
-                    <p class="body">By  Iain McGilchrist</p>
+                    <p class="body">By Iain McGilchrist</p>
                   </div>
                 </div>
               </div>
@@ -170,9 +200,13 @@ class words extends Component {
                   <div class="card-header">Capella</div>
 
                   <div class="card-body">
-                    <h5 class="card-title">A Case for a Decentralized Thought-Sharing Platform</h5>
+                    <h5 class="card-title">
+                      A Case for a Decentralized Thought-Sharing Platform
+                    </h5>
                     <p class="body">
-                      A proposal Alex and I wrote exploring the idea of creating an alternative monetization model for a twitter style social network.
+                      A proposal Alex and I wrote exploring the idea of creating
+                      an alternative monetization model for a twitter style
+                      social network.
                     </p>
 
                     <a
@@ -224,7 +258,11 @@ class words extends Component {
                       strategy to win each time.
                     </p>
 
-                    <a target="_blank" href="https://drive.google.com/file/d/1hhiwti2i3WohOn2cb2kq8lqUY00RkON6/view?usp=sharing" class="btn btn-primary">
+                    <a
+                      target="_blank"
+                      href="https://drive.google.com/file/d/1hhiwti2i3WohOn2cb2kq8lqUY00RkON6/view?usp=sharing"
+                      class="btn btn-primary"
+                    >
                       read
                     </a>
                     <p class="card-text">
@@ -245,7 +283,11 @@ class words extends Component {
                       My final paper for an elective I took on the economics of
                       COVID-19.
                     </p>
-                    <a target="_blank" href="https://drive.google.com/file/d/1t3b-voXs8QQvjW_HKpN6-ia1YWOTY-Dw/view?usp=sharing" class="btn btn-primary">
+                    <a
+                      target="_blank"
+                      href="https://drive.google.com/file/d/1t3b-voXs8QQvjW_HKpN6-ia1YWOTY-Dw/view?usp=sharing"
+                      class="btn btn-primary"
+                    >
                       read
                     </a>
                     <p class="card-text">
@@ -266,7 +308,11 @@ class words extends Component {
                       their decision to award Qatar the hosting rights for the
                       World Cup in 2022.
                     </p>
-                    <a target="_blank" href="https://drive.google.com/file/d/19jZMAXso3YVrTOFe28RAhvKPLDLtKxXW/view?usp=sharing" class="btn btn-primary">
+                    <a
+                      target="_blank"
+                      href="https://drive.google.com/file/d/19jZMAXso3YVrTOFe28RAhvKPLDLtKxXW/view?usp=sharing"
+                      class="btn btn-primary"
+                    >
                       read
                     </a>
                     <p class="card-text">

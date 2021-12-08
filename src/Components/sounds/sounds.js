@@ -72,8 +72,7 @@ class sounds extends Component {
                         #11 Sam Harris - Fighting with Friends
                       </li>
                       <li class="list-group-item">
-                        #4 Timur Kuran - The Economics of Revolution & Mass
-                        Deception
+                        #41 Douglas Murray - Heroism 2020: Defense of Our Own Civilization
                       </li>
                       <li class="list-group-item">
                         #1 Peter Thiel - An Era of Stagnation & Universal
@@ -81,6 +80,35 @@ class sounds extends Component {
                       </li>
                       <li class="list-group-item">
                         #33 Josh Wolfe - The Mind Financing the Future
+                      </li>
+                    </ol>{" "}
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="6">
+                  <Accordion.Header>The Joe Rogan Experience</Accordion.Header>
+                  <Accordion.Body>
+                    <ol class="list-group list-group-flush">
+                    <li class="list-group-item">
+                    [Netflix Special] Joe Rogan: Triggered
+                      </li>
+                      <li class="list-group-item">
+                      [Netflix Special] Joe Rogan: Strange Times
+                      </li>
+                      
+                      <li class="list-group-item">
+                        #1628 - Eric Weinstein
+                      </li>
+                      <li class="list-group-item">
+                        #1554 - Kanye West
+                      </li>
+                      <li class="list-group-item">
+                        #1070 - Jordan Peterson
+                      </li>
+                      <li class="list-group-item">
+                        #1558 - Tristan Harris
+                      </li>
+                      <li class="list-group-item">
+                        #1609 - Elon Musk
                       </li>
                     </ol>{" "}
                   </Accordion.Body>
@@ -162,11 +190,15 @@ class sounds extends Component {
                   <Accordion.Header>John Lennon</Accordion.Header>
                   <Accordion.Body>
                     <ol class="list-group list-group-numbered list-group-flush">
-                      <li class="list-group-item">Oh My Love</li>
+                    <li class="list-group-item">Beautiful Boy</li>
+                    <li class="list-group-item">Mind Games</li>
+                    <li class="list-group-item">Intuition</li>
+
                       <li class="list-group-item">Give Peace a Chance</li>
-                      <li class="list-group-item">Beautiful Boy</li>
                       <li class="list-group-item">Gimme Some Truth</li>
                       <li class="list-group-item">Hold On</li>
+                      <li class="list-group-item">Oh My Love</li>
+
                     </ol>{" "}
                   </Accordion.Body>
                 </Accordion.Item>
@@ -227,6 +259,19 @@ class sounds extends Component {
                     </ol>{" "}
                   </Accordion.Body>
                 </Accordion.Item>
+                <Accordion.Item eventKey="26">
+                  <Accordion.Header>Adele</Accordion.Header>
+                  <Accordion.Body>
+                    <ol class="list-group list-group-numbered list-group-flush">
+                      <li class="list-group-item">Remedy</li>
+                      <li class="list-group-item">I Drink Wine</li>
+                      <li class="list-group-item">Daydreamer</li>
+                      <li class="list-group-item">Million Years Ago</li>
+                      <li class="list-group-item">Someone Like You</li>
+
+                    </ol>{" "}
+                  </Accordion.Body>
+                </Accordion.Item>
                 <Accordion.Item eventKey="9">
                   <Accordion.Header>Journey</Accordion.Header>
                   <Accordion.Body>
@@ -244,6 +289,7 @@ class sounds extends Component {
                   <Accordion.Body>
                     <ol class="list-group list-group-numbered list-group-flush">
                       <li class="list-group-item">Die For You</li>
+                      <li class="list-group-item">Losers</li>
                       <li class="list-group-item">Secrets</li>
                       <li class="list-group-item">House of Balloons</li>
                       <li class="list-group-item">In the Night</li>
@@ -330,6 +376,18 @@ class sounds extends Component {
                     </ol>{" "}
                   </Accordion.Body>
                 </Accordion.Item>
+                <Accordion.Item eventKey="27">
+                  <Accordion.Header>P!nk</Accordion.Header>
+                  <Accordion.Body>
+                    <ol class="list-group list-group-numbered list-group-flush">
+                      <li class="list-group-item">Just Give Me a Reason</li>
+                      <li class="list-group-item">F**kin' Perfect</li>
+                      <li class="list-group-item">Try</li>
+                      <li class="list-group-item">True Love</li>
+                      <li class="list-group-item">Raise Your Glass</li>
+                    </ol>{" "}
+                  </Accordion.Body>
+                </Accordion.Item>
                 <Accordion.Item eventKey="19">
                   <Accordion.Header>RUFUS DU SOL</Accordion.Header>
                   <Accordion.Body>
@@ -344,6 +402,7 @@ class sounds extends Component {
                   <Accordion.Header>The Game</Accordion.Header>
                   <Accordion.Body>
                     <ol class="list-group list-group-numbered list-group-flush">
+                    <li class="list-group-item">From Adam</li>
                       <li class="list-group-item">Red Nation</li>
                       <li class="list-group-item">From Adam</li>
                       <li class="list-group-item">My Life</li>

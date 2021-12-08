@@ -15,7 +15,6 @@ class home extends Component{
         <br />
         <br />
 
-        <h5>Hi! I'm Liam</h5>
     </div>
   );
 }

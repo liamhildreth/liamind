@@ -156,27 +156,78 @@ class words extends Component {
                   </div>
                 </div>
               </div>
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                    <a
+                        href="https://kalliope.org/en/text/tennyson1999063013"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        To the Queen
+                      </a></h5>
+                    <p class="body">By Alfred Lord Tennyson</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                    <a
+                        href="https://www.poetryfoundation.org/poems/57587/the-tower-56d23b4072cea"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        The Tower
+                      </a></h5>
+                    <p class="body">By W.B. Yeats</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                    <a
+                        href="https://www.poetryfoundation.org/poems/50643/sonnet-1-from-fairest-creatures-we-desire-increase"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Sonnet I
+                      </a></h5>
+                    <p class="body">By William Shakespeare</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                    <a
+                        href="https://shakespeare.folger.edu/shakespeares-works/shakespeares-sonnets/sonnet-14/"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Sonnet XIV
+                      </a></h5>
+                    <p class="body">By William Shakespeare</p>
+                  </div>
+                </div>
+              </div>
             </div>
             <br />
             <h5 className="titles text-center text-lg-start">
               currently reading
             </h5>
-            <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+            <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-4">
               <div class="col">
                 <div class="card h-100">
                   <img src={geb} class="card-img-top" alt="..."></img>
                   <div class="card-body">
                     <h5 class="card-title">GEB: an Eternal Golden Braid</h5>
                     <p class="body">By Douglas Hofstadter</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src={themaster} class="card-img-top" alt="..."></img>
-                  <div class="card-body">
-                    <h5 class="card-title">The Master and His Emissary</h5>
-                    <p class="body">By Iain McGilchrist</p>
                   </div>
                 </div>
               </div>

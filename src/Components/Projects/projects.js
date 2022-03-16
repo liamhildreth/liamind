@@ -104,13 +104,7 @@ class projects extends Component {
             </a>
           </Col>
           <Col xs={12} md={6} className="py-4 py-md-0 my-auto">
-            <a href="https://www.alexjnelson.ca" rel="noreferrer">
-              Alex Nelson
-            </a>
-            &nbsp; and I are on a mission to return value to the people that
-            create it. Capella is a feedback market where consumers barter their
-            time, opinions, and data in exchange for Vox that can be spent on
-            product/service discounts from the brands in our network.
+          This project is on hold for now - you can read more about it on the words page. 
           </Col>
           <Col xs={12} md={3} className="my-auto">
             <Button

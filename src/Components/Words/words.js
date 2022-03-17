@@ -367,10 +367,33 @@ class words extends Component {
                   <div class="card-header">high school</div>
                   <div class="card-body">
                     <h5 class="card-title">
+                      Yowl
+                    </h5>
+                    <p class="body">
+                      A poem I wrote in grade 12 English aiming to beat the drum of Howl by Allen Ginsberg. 
+                    </p>
+                    <a
+                      target="_blank"
+                      href="https://drive.google.com/file/d/1RUNtl85X3odnIe5VfiY_I4jwgoguozym/view?usp=sharing"
+                      class="btn btn-primary"
+                    >
+                      read
+                    </a>
+                    <p class="card-text">
+                      <small class="text-muted">April 2018</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-header">high school</div>
+                  <div class="card-body">
+                    <h5 class="card-title">
                       Corruption Within FIFA: the Qatar 2022 ‘Winter’ World Cup
                     </h5>
                     <p class="body">
-                      A paper I wrote in high school calling on FIFA to revoke
+                      A paper I wrote in grade 12 kinesiology calling on FIFA to revoke
                       their decision to award Qatar the hosting rights for the
                       World Cup in 2022.
                     </p>
